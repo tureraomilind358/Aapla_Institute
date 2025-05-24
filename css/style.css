@@ -328,6 +328,13 @@ h6 {
 .bi-linkedin{
     color: #5c74fcc4;
 }
+footer .style_icons img{
+    width: 50px !important;
+}
+footer .style_icons img:hover{
+    transform: translateY(-5px);
+    transition: all 0.3s;
+}
 @media (max-width:768px) {
     .imgage {
         width: 70% !important;
