@@ -91,7 +91,7 @@ h6 {
     top: 0px;
     background-color: #fff;
     box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
-    z-index: 1;
+    z-index: 9999;
 }
 
 .logo {
@@ -133,7 +133,7 @@ h6 {
 }
 
 form {
-    background: #53535c48;
+    background: #53535ca8;
     padding: 30px;
     border-radius: 10px;
 }
@@ -335,7 +335,20 @@ footer .style_icons img:hover{
     transform: translateY(-5px);
     transition: all 0.3s;
 }
+
+.animated{
+    width: 155px !important;
+    height: 350px !important;
+    position: relative;
+    top: -80px;
+    z-index: 99;
+}
+
+
 @media (max-width:768px) {
+    .animated{
+        display: none;
+    }
     .imgage {
         width: 70% !important;
         height: 70% !important;
